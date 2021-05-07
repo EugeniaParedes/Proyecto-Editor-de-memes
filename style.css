@@ -1,0 +1,32 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+body{
+    width: 100vw;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+}
+
+header{  
+    height: 150px;
+    width: 100%;  
+    background-color: cadetblue;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+
+}
+.lista{
+    display: flex;
+    align-items: center;
+}
+li{
+    list-style: none;
+    padding: 10px;
+    
+}
